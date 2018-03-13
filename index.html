@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<p></p>
+<script>
+var pi = 3;
+var sign = 1;
+var a = 2;
+setInterval(function(){
+pi+=sign*(4/(a*(a+1)*(a+2)));
+sign=-1*sign;
+a+=2;
+document.getElementsByTagName("p")[0].innerHTML=pi;
+},1);
+
+</script>
+
+</body>
+</html>
